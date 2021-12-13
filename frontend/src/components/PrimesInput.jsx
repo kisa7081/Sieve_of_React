@@ -44,7 +44,7 @@ class PrimesInput extends Component {
 	         	 Enter a number to find all prime numbers less than that number (maximum 1000): 
 	         	 <input type="text" name='primeInput' value={this.state.value} onChange={this.handleChange} onKeyDown={this.handleKeyDown}/>
 	        	</label>
-	        	<input defaultValue="Submit"  />
+	        	<input value="Submit"  />
 	      	</form>
 	      	<PrimesDisplay primes={this.state}/>
 	     </div>
