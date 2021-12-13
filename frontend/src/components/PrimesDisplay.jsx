@@ -18,7 +18,7 @@ class PrimesDisplay extends Component {
 
 	render() {
 		return (
-			<div className='PrimesDisplay' data-testid="PrimesDisplay">
+			<div className='primes' data-testid="PrimesDisplay">
 				<label>
 	         	The prime numbers less than the entered number: <div>{this.state.value}</div>
 	        	</label>
